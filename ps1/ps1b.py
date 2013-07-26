@@ -20,6 +20,7 @@ while rank < n:
 		logPrime = logPrime + log(TestNum)
 		##print rank,TestNum
 	TestNum = TestNum + 2
+TestNum = TestNum - 2
 print TestNum
 print logPrime
 ratio = logPrime/TestNum
